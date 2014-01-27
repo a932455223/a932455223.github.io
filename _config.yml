@@ -1,1 +1,3 @@
-baseurl: /simon-simon.github.io
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
