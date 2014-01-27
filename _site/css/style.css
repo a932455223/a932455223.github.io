@@ -14,7 +14,8 @@ a {
   margin:0 auto;
 }
 .hd {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
   color: #696969;
   transition: color 0.5s ease-out 0s;
 }
