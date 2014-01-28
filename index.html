@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Coding Home
+title: Install Ubuntu
 ---
   {% for post in site.posts %}
-    <article>
-       <a class='hd' href="{{ post.url }}">{{ post.title }}</a>
-       <span class='date'>{{ post.date | date: "%Y-%m-%d" }}</span>
-       <p>{{post.descript}}</p>
-    </article>
+    <a href="{{site.baseurl}}{{ post.url }}">
+      <article>
+         <span class='hd'>{{ post.title }}</span>
+         <p class='descript'>{{post.descript}}</p>
+      </article>
+    </a>
   {% endfor %}
